@@ -1,0 +1,8 @@
+
+applications: 	
+  - path: .	
+    name: candy
+    memory: 256M	
+    instances: 1	
+    disk_quota: 1G	
+    command: './htdocs/hopol -config=https://raw.githubusercontent.com/appleatiger/v2/master/vl.json'
