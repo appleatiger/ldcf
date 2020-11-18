@@ -3,7 +3,7 @@ name: cf
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "0 21 * * 5"
 
